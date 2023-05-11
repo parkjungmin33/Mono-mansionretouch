@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+a:link, a:visited{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 80;
+}
+
+nav ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-logo {
+    color: aliceblue;
+    font-size: 80px;
+    float: left;
+    margin: 0;
+}
+
+.atc {
+    color: white;
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 100vh;
+}
+
+.atc {
+    width: 100%;
+}
+
+
+
+
+.line {
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    margin: auto;
+}
+
+.ft {
+    padding: 100px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
